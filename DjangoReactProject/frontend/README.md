@@ -1,4 +1,6 @@
- # Introduction
+# A DjangoReactProject
+
+## Introduction
 
 This is a repo that contains three parts :
  
