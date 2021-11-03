@@ -12,9 +12,9 @@
    
  * Rest api
  
-       * Contains all  data from database
+      * Contains all  data from database
   
  * Frontend App (Reactjs app using javascript)
 
-       * Fetching data from Api 
+      * Fetching data from Api 
 
