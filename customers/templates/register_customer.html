@@ -1,0 +1,67 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'CSS/style.css'%}">
+    <title>CustomerRegistrationForm</title>
+    <style>
+body{
+background-color:rgb(219, 210, 210);
+width: 400px;
+height: 800px;
+font-size: 20px;
+}
+.head{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+}
+.sub{
+    width: 150px;
+    height: 40px;
+    margin-left: 200px;
+    background-color:darkgreen;
+}
+.form{
+    background-color: white;
+    margin-left: 250px;
+    width: 600px;
+    padding: 100px;
+    font-size: 20px;
+    border-radius: 20px; 
+    margin-right: 300px;
+}
+input{
+    width: 100%;
+           outline: none;
+           border: 1px solid ;
+           font-size: 15px;
+           padding: 8px 10px;
+           border-radius: 20px;
+           transition: all 0.3;
+           background-color: white;
+}
+    </style>
+</head>
+<body>
+    <br>  <div class="box-element">
+
+        <a class="btn btn-outline-dark" href="{% url 'cart' %}">&#x2190; Back to Cart</a>
+    </div>
+    <div class="div">
+    <div class="form">
+    <h1 class="head"> Customer Registration Form</h1>   
+      
+    <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+
+     <input type="submit" value="Submit" class="sub"> 
+    </form>
+</div>
+</div>
+</body>
+</html>
