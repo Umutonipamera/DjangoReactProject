@@ -49,7 +49,15 @@ To run this project you will need to:
        ```bash
           python3 manage.py runserver 
          ```
-    * After opening your browser you have to add /customers/ so that you can see what is in the project and also you can open it on the order browser so that you can be able to open api because reactjs app can't fetch data when the api is not active, so you will open api by adding 
+    * After opening your browser you have to add /customers/  
+    * It should look like this
+      
+       ```bash
+        http://127.0.0.1:8000/customers/
+         ```
+        
+    
+     * So that you can see what is in the project and also you can open it on the order browser so that you can be able to open api because reactjs app can't    fetch   data when the api is not active, so you will open api by adding 
        
     
        ```bash
