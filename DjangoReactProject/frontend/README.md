@@ -1,14 +1,14 @@
  # Introduction
 
-## This is a repo that contains three parts :
+  * This is a repo that contains three parts :
  
-  ## A backend App(Python using django framework)
+  * A backend App(Python using django framework)
  
-    * Store of products
-    * Add to cart
-    * View product
-    * Customer Registration
-    * Checkout
+   **  Store of products
+   **  Add to cart
+   **  View product
+   **  Customer Registration
+   **  Checkout
    
   ## Rest api
  
