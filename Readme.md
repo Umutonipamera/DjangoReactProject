@@ -22,10 +22,14 @@ This is a repo that contains three parts :
 
 ## Requirements
 
- * Python 3.8
+ * Python 3.8 to 3.10
+ * pillow
+ * Django REST framework
+ * corsheaders
  * npm 6.14.8
  * nodejs  v12.18.2
  * reactjs  17.0.2
+ * axios
  * Visual Studio Code
  
 ## Setup
@@ -57,7 +61,7 @@ To run this project you will need to:
          ```
         
     
-     * So that you can see what is in the project and also you can open it on the order browser so that you can be able to open api because reactjs app can't    fetch   data when the api is not active, so you will open api by adding 
+     * To fetch data from api using reactjs app you should open api in the other  browser  because reactjs app can't  fetch   data when  api is not active, so you will open api by adding 
        
     
        ```bash
