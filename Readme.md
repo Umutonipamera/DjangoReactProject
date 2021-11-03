@@ -12,7 +12,7 @@ This is a repo that contains three parts :
        * Customer Registration
        * Checkout
    
- * Rest api
+ * api
  
       * Contains all  data from database
   
