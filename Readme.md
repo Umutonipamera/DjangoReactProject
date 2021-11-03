@@ -1,4 +1,4 @@
-# DjangoReactProject
+# Django and Reactjs Project
 
 ## Introduction
 
