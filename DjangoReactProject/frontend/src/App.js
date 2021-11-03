@@ -1,4 +1,5 @@
 import React,{Component} from "react";
+import './App.css'; 
 
 class App extends Component {
 
@@ -32,8 +33,10 @@ class App extends Component {
     }
      
        return(
+        
        <div className="App">
-
+     
+       
        <ul>
          {items.map(item =>(
             <li key={item.id}>
@@ -45,11 +48,11 @@ class App extends Component {
                 Attachnment:{item.attachnment} 
 
             </li>
-         ))};
+         ))}
          
        </ul>
-
-      </div>
+       </div>
+     
     );
   }
 }
