@@ -11,8 +11,8 @@
             <h6><strong>{{product.expired_date}}</strong></h6>
 			<hr>
 
-			<button  data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart" >Apply</button>
-			<a class="btn btn-outline-success" href="#">View</a>
+			<button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart" >Apply</button>
+			<a class="btn btn-outline-success" href="{% url 'view' id=product.id %}">View</a>
 			<h4 style="display: inline-block; float: right">${{product.price|floatformat:2}}</h4>
 
 		</div>

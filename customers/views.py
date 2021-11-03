@@ -35,6 +35,11 @@ def store(request):
     context = {'products':products,'cartItems':cartItems}
     return render(request,'store.html',context)
 
+
+def product_view(request, id):
+    product = Product.objects.get(id=id)
+    return render(request, "view_product.html", {"product":product})
+
 def cart(request):
     if request.user.is_authenticated:
         customer= request.user

@@ -37,11 +37,11 @@ class App extends Component {
        <ul>
          {items.map(item =>(
             <li key={item.id}>
-                First_name:{item.first_name} |
-                Last_name:{item.last_name} |
-                Email_address:{item.email_address} |
-                Gender:{item.gender} |
-                Description:{item.description} |
+                First_name:{item.first_name} 
+                Last_name:{item.last_name} 
+                Email_address:{item.email_address} 
+                Gender:{item.gender} 
+                Description:{item.description} 
                 Attachnment:{item.attachnment} 
 
             </li>
