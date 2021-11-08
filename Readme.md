@@ -14,7 +14,7 @@ This is a repo that contains three parts :
    
  * api
  
-      * Contains all  data from database
+      * Contains  all  data from database
   
  * Frontend App (Reactjs app using javascript)
 
@@ -29,7 +29,6 @@ This is a repo that contains three parts :
  * npm 6.14.8
  * nodejs  v12.18.2
  * reactjs  17.0.2
- * axios
  * Visual Studio Code
  
 ## Setup
